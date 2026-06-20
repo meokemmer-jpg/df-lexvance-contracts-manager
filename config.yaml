@@ -154,3 +154,8 @@ output_pipe_block:
 - mandant_external_communication
 - gegner_anwalt_notify
 - draft_publish_external
+K13_external_anchor_type: verified_web_sources
+K13_external_anchor_validation_frequency: per_anchor_run
+K13_external_anchor_count: 3
+K13_external_anchor_evidence: https://www.wolterskluwer.com/de-de/solutions/legisway
+K13_anchored_ts: 2026-06-19T13:30:33.453269+00:00
