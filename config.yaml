@@ -159,3 +159,13 @@ K13_external_anchor_validation_frequency: per_anchor_run
 K13_external_anchor_count: 3
 K13_external_anchor_evidence: https://www.wolterskluwer.com/de-de/solutions/legisway
 K13_anchored_ts: 2026-06-19T13:30:33.453269+00:00
+
+# --- K11-16 Board-Haertung (evidence-based, df_k_hardening) [CRUX-MK] ---
+K11_cascade_containment: lose_coupling  # evidence: lose_coupling-Block (LC1-5 Failure-Isolation)
+K12_distillation_resistance: provenance_non_llm  # evidence: verified_web_sources (Provenance) + verify_urls (non-LLM-Validierung)
+K13_independent_ground_truth: web_verified  # evidence: verified_web_sources (HTTP-verifizierte Quellen)
+K15_entropy_budget: bounded  # evidence: Output/Quota-Cap deklariert
+K16_concurrent_spawn_mutex: wrapper_mkdir  # evidence: scripts/*.sh atomarer mkdir-Lock (Spawn-Mutex)
+K_hardening_gap: [human_override_decay]  # echte Luecke -> Code noetig
+K_hardening_level: declared  # 5/6 evidenz-belegt
+K_hardening_ts: 2026-06-23T04:26:38.540224+00:00
