@@ -1,9 +1,9 @@
 {
   "df": "df-lexvance-contracts-manager",
-  "ts": "2026-07-03T02:54:30.859517+00:00",
+  "ts": "2026-07-04T01:51:12.847190+00:00",
   "maturity": "TESTED",
   "maturity_level": 4,
   "evidence_grade": 4,
-  "wargame_verdict": "CONDITIONAL",
+  "wargame_verdict": null,
   "crux": "[CRUX-MK]"
 }
