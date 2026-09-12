@@ -1,0 +1,5 @@
+{
+  "verdict": "HOLDS",
+  "reason": "Der Test erzwingt funktionale Gegenfaelle wie Real-Mode mit M&A+Ticket versus M&A ohne Ticket mit Mock-Fallback sowie unbekannte Kategorie mit Assertion, statt nur Konstanten nachzuplappern.",
+  "ts": "2026-09-11T19:58:00.319775+00:00"
+}
